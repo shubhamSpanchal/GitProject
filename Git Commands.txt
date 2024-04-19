@@ -1,0 +1,55 @@
+    					Git Commands
+
+*. To set details for git.
+-> git config --global user.name "ShubhamPanchal"
+   git config --global user.email "shubhamspanchal98@gmail.com"
+
+*. To check details for git.
+-> git config --global user.name
+   git config --global user.email
+
+*. To create git repository.
+-> git init
+
+*. To show hidden files and folders where .git file is present.
+-> ls -lart
+
+*. To check status of files available in repository.
+-> git status
+
+*. To add single file in staging.
+-> git add filename.html
+
+*. To add all files in staging.
+-> git add -A
+
+*. To commit single file in staging.
+-> git commit -m "Write comment"
+
+*. To commit all files in staging.
+-> git commit -a -m "Write comment"
+
+*. To create blank file.
+-> touch about.html
+
+*. To update single file with last modified file.
+-> git checkout filename.html
+
+*. To update all files with last modified file.
+-> git checkout -f
+
+*. To check commited files and their comments.
+-> git log
+
+*. To check last 5 files details with commits and comments.
+-> git log -p -5
+
+*. To clear cmd
+-> clear
+
+*. To compare working area file with staging.
+-> git diff
+
+*. To compare last commit with staging.
+-> git diff -staged
+
