@@ -24,7 +24,7 @@
 -> git add -A
 
 *. To commit single file in staging.
--> git commit -m "Write comment"
+-> git commit -m "Write comment" filname.html
 
 *. To commit all files in staging.
 -> git commit -a -m "Write comment"
@@ -38,7 +38,7 @@
 *. To update all files with last modified file.
 -> git checkout -f
 
-*. To check commited files and their comments.
+*. To check all commited files and their comments.
 -> git log
 
 *. To check last 5 files details with commits and comments.
@@ -47,7 +47,7 @@
 *. To clear cmd
 -> clear
 
-*. To compare working area file with staging.
+*. To compare working area files with staging.
 -> git diff
 
 *. To compare last commit with staging.
