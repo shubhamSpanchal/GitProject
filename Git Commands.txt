@@ -67,7 +67,16 @@
 
 *. To create gitignore file and We have to add filenames and extention in .gitignore
 -> touch .gitignore
+-> To ignore all files from project -> filenmae.log
+-> To ignore only .gitignore file availabe log file -> /filename.log
+-> To ignore all .log files from project -> *.log
+-> To ignore all log files from perticular folder -> foldername/
 
-*. To ignore all files from project -> filenmae.log
-*. To ignore only .gitignore file availabe log file -> /filename.log
-*. To ignore all .log files from project -> *.log
+*.To check working branch.
+-> git branch
+
+*. To create new branch.
+-> git branch branchName
+
+*. To switch branch.
+-> git checkout branchName 
