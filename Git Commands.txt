@@ -78,5 +78,11 @@
 *. To create new branch.
 -> git branch branchName
 
+*. To create new branch and switch directly in that branch.
+-> git branch checkout -b branchName
+
 *. To switch branch.
--> git checkout branchName 
+-> git checkout branchName
+
+*. To merge two branch
+-> git merge NewBranchName
