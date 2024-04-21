@@ -14,6 +14,9 @@
 *. To show hidden files and folders where .git file is present.
 -> ls -lart
 
+*. To show file content.
+-> cat filename.html
+
 *. To check status of files available in repository.
 -> git status
 
@@ -86,3 +89,20 @@
 
 *. To merge two branch
 -> git merge NewBranchName
+
+*. To add github repository url for push.
+-> git remote add origin https://github.com/shubhamSpanchal/GitProject.git 
+
+*. To check github repository added name.
+-> git remote
+
+*. To check push fetch URLs of github repository.
+-> git remote -v
+
+*. To push local repository to github.
+-> git push origin master(local repository name)
+
+*. To fetch code from github repository to local pc
+-> git clone https://github.com/shubhamSpanchal/DuplicateStringCount.git
+
+
